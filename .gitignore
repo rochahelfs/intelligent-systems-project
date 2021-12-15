@@ -8,6 +8,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# My app
+server/my_app/__pycache__
+
 # C extensions
 *.so
 
