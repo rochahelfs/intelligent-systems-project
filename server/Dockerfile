@@ -20,6 +20,7 @@ WORKDIR ${API_DIR}
 
 # Install Python packages
 ADD requirements.txt .
+RUN python -m pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Add all other files to the container

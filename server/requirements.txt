@@ -5,3 +5,5 @@ python-dotenv==0.15.0
 fastapi==0.70.0
 uvicorn==0.16.0
 cloudpickle==2.0.0
+pytest==6.2.5 
+requests==2.25.1
